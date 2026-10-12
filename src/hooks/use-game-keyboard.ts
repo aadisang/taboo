@@ -1,28 +1,25 @@
 "use client";
 
 import { useHotkeys } from "@tanstack/react-hotkeys";
+import { useGameStore } from "@/stores/game";
 
 interface UseGameKeyboardProps {
-  onCorrect: () => void;
-  onSkip: () => void;
   onPause: () => void;
   onOpenHelp: () => void;
   onStartRound: () => void;
-  onPreviewPrevious: () => void;
-  gameStarted: boolean;
   isPaused: boolean;
 }
 
 export function useGameKeyboard({
-  onCorrect,
-  onSkip,
   onPause,
   onOpenHelp,
   onStartRound,
-  onPreviewPrevious,
-  gameStarted,
   isPaused,
 }: UseGameKeyboardProps) {
+  const onCorrect = useGameStore((s) => s.handleCorrect);
+  const onSkip = useGameStore((s) => s.handleSkip);
+  const onPreviewPrevious = useGameStore((s) => s.togglePreviewPrevious);
+  const gameStarted = useGameStore((s) => s.gameStarted);
   useHotkeys(
     [
       // Space doubles as the primary action: mark correct during a round,

@@ -33,7 +33,9 @@ function createTeam(name: string): Team {
 }
 
 export function SettingsDialog({ open, onOpenChange, onResetRequest }: SettingsDialogProps) {
-  const { settings, teams, applySettings } = useGameStore();
+  const settings = useGameStore((s) => s.settings);
+  const teams = useGameStore((s) => s.teams);
+  const applySettings = useGameStore((s) => s.applySettings);
 
   const {
     formState: { errors, isSubmitting },

@@ -3,31 +3,27 @@
 import { GameCard } from "@/components/game-card";
 import { Rules } from "@/components/rules";
 import { Button } from "@/components/ui/button";
-import type { TabooCard } from "@/data/taboo-cards";
+import { getCardById } from "@/data/taboo-cards";
+import { useGameStore } from "@/stores/game";
 
 type GameAreaProps = {
-  gameStarted: boolean;
   isPaused: boolean;
-  currentCard: TabooCard | null;
-  previousCard: TabooCard | null;
-  hasPlayed: boolean;
-  onCorrect: () => void;
-  onSkip: () => void;
   onStartRound: () => void;
   onTogglePause: () => void;
 };
 
-export function GameArea({
-  gameStarted,
-  isPaused,
-  currentCard,
-  previousCard,
-  hasPlayed,
-  onCorrect,
-  onSkip,
-  onStartRound,
-  onTogglePause,
-}: GameAreaProps) {
+export function GameArea({ isPaused, onStartRound, onTogglePause }: GameAreaProps) {
+  const gameStarted = useGameStore((s) => s.gameStarted);
+  const hasPlayed = useGameStore((s) => s.roundNumber > 0);
+  const currentCard = useGameStore((s) =>
+    s.currentCardId === null ? undefined : getCardById(s.currentCardId),
+  );
+  const previousCard = useGameStore((s) => {
+    const id = s.previewingPrevious ? s.usedCardIds.at(-2) : undefined;
+    return id === undefined ? undefined : getCardById(id);
+  });
+  const onCorrect = useGameStore((s) => s.handleCorrect);
+  const onSkip = useGameStore((s) => s.handleSkip);
   if (gameStarted && isPaused) {
     return (
       <section id="main-content" className="text-center">

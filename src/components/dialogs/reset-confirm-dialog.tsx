@@ -1,6 +1,7 @@
 "use client";
 
 import { Button } from "@/components/ui/button";
+import { useGameStore } from "@/stores/game";
 import {
   Dialog,
   DialogClose,
@@ -14,10 +15,10 @@ import {
 type ResetConfirmDialogProps = {
   open: boolean;
   onOpenChange: (open: boolean) => void;
-  onConfirm: () => void;
 };
 
-export function ResetConfirmDialog({ open, onOpenChange, onConfirm }: ResetConfirmDialogProps) {
+export function ResetConfirmDialog({ open, onOpenChange }: ResetConfirmDialogProps) {
+  const resetGame = useGameStore((s) => s.resetGame);
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogPopup>
@@ -34,7 +35,7 @@ export function ResetConfirmDialog({ open, onOpenChange, onConfirm }: ResetConfi
             variant="destructive"
             size="sm"
             onClick={() => {
-              onConfirm();
+              resetGame();
               onOpenChange(false);
             }}
           >

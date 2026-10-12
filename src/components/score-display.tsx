@@ -1,14 +1,11 @@
 "use client";
 
 import { cn } from "@/utils/cn";
-import type { Team } from "@/types/game";
+import { useGameStore } from "@/stores/game";
 
-type ScoreDisplayProps = {
-  teams: Team[];
-  currentTeamIndex: number;
-};
-
-export function ScoreDisplay({ teams, currentTeamIndex }: ScoreDisplayProps) {
+export function ScoreDisplay() {
+  const teams = useGameStore((s) => s.teams);
+  const currentTeamIndex = useGameStore((s) => s.currentTeamIndex);
   return (
     <section aria-label="Scoreboard">
       <ul className="flex flex-wrap items-end justify-center gap-x-10 gap-y-6 sm:gap-x-14">

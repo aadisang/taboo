@@ -27,9 +27,6 @@ export default defineConfig(({ mode }) => ({
   resolve: {
     tsconfigPaths: true,
   },
-  ssr: {
-    noExternal: ["react-timer-hook"],
-  },
   optimizeDeps: {
     include: ["react-timer-hook"],
   },

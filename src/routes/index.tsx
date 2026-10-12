@@ -1,13 +1,8 @@
-import { ClientOnly, createFileRoute } from "@tanstack/react-router";
-import { Suspense, lazy } from "react";
-import { GameLoadingShell } from "@/components/game-loading-shell";
+import { createFileRoute } from "@tanstack/react-router";
+import { TabooGame } from "@/components/taboo-game";
 import { WordUpdateBanner } from "@/components/word-update-banner";
 import { siteMetadata } from "@/config/site";
 import { getWordUpdateDismissed } from "@/server/word-update";
-
-const TabooGame = lazy(() =>
-  import("@/components/taboo-game").then((module) => ({ default: module.TabooGame })),
-);
 
 export const Route = createFileRoute("/")({
   loader: () => getWordUpdateDismissed(),
@@ -34,11 +29,7 @@ function HomePage() {
   return (
     <div className="flex min-h-dvh flex-col">
       <WordUpdateBanner initiallyDismissed={updateDismissed} />
-      <ClientOnly fallback={<GameLoadingShell />}>
-        <Suspense fallback={<GameLoadingShell />}>
-          <TabooGame />
-        </Suspense>
-      </ClientOnly>
+      <TabooGame />
     </div>
   );
 }

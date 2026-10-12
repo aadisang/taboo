@@ -3,24 +3,18 @@
 import { GearIcon, QuestionIcon } from "@phosphor-icons/react";
 import { Button } from "@/components/ui/button";
 import { formatGameTime } from "@/utils/time";
+import { useGameStore } from "@/stores/game";
 
 type GameHeaderProps = {
-  gameStarted: boolean;
-  hasPlayed: boolean;
-  activeTeamName: string | undefined;
   timeRemaining: number;
   onOpenSettings: () => void;
   onOpenHelp: () => void;
 };
 
-export function GameHeader({
-  gameStarted,
-  hasPlayed,
-  activeTeamName,
-  timeRemaining,
-  onOpenSettings,
-  onOpenHelp,
-}: GameHeaderProps) {
+export function GameHeader({ timeRemaining, onOpenSettings, onOpenHelp }: GameHeaderProps) {
+  const gameStarted = useGameStore((s) => s.gameStarted);
+  const hasPlayed = useGameStore((s) => s.roundNumber > 0);
+  const activeTeamName = useGameStore((s) => s.teams[s.currentTeamIndex]?.name);
   const label = hasPlayed ? (activeTeamName ?? "Taboo") : "Taboo";
 
   return (
