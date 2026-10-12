@@ -22,3 +22,7 @@ vp dev
 - Tailwind CSS v4
 - Zustand
 - Vite+
+
+## Card corpus
+
+The deck contains 1,480 cards. See [the corpus methodology and source review](corpus/README.md) for editorial standards, research, real-word candidate lists, and validation commands.

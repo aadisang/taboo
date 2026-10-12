@@ -4,6 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "corpus:audit": "python3 scripts/corpus.py audit",
+    "corpus:build": "python3 scripts/corpus.py build && vp fmt src/data/expansion-cards.ts",
+    "corpus:words": "python3 scripts/corpus.py candidates",
     "build": "vp build",
     "dev": "vp dev",
     "check": "vp check",

@@ -1,0 +1,1790 @@
+[
+  [
+    "home",
+    "HAMMOCK",
+    ["SWING", "SLEEP", "TREE", "HANG", "NET"],
+    [
+      "A suspended bed for a lazy afternoon outdoors.",
+      "You lie in this fabric sling between two posts."
+    ]
+  ],
+  [
+    "home",
+    "DOORBELL",
+    ["RING", "BUTTON", "VISITOR", "CHIME", "PRESS"],
+    [
+      "A delivery driver uses this to announce a package.",
+      "This alerts you that someone is waiting outside your house."
+    ]
+  ],
+  [
+    "home",
+    "DOORMAT",
+    ["FEET", "WIPE", "WELCOME", "SHOES", "ENTRANCE"],
+    ["A small rug on the porch that catches mud.", "Someone who lets everyone walk all over them."]
+  ],
+  [
+    "home",
+    "DUVET",
+    ["BED", "COVER", "BLANKET", "FEATHERS", "SLEEP"],
+    [
+      "A fluffy quilt you tuck around yourself on a chilly night.",
+      "You wrestle this bulky insert into its washable sleeve."
+    ]
+  ],
+  [
+    "home",
+    "HAMPER",
+    ["LAUNDRY", "BASKET", "CLOTHES", "DIRTY", "WASH"],
+    [
+      "A container for your used towels before cleaning day.",
+      "A picnic gift packed with treats can also be called this."
+    ]
+  ],
+  [
+    "home",
+    "PANTRY",
+    ["FOOD", "KITCHEN", "CUPBOARD", "STORE", "SHELVES"],
+    [
+      "The little room where we keep flour and canned beans.",
+      "You check here for pasta before making a shopping list."
+    ]
+  ],
+  [
+    "home",
+    "PADLOCK",
+    ["KEY", "COMBINATION", "SECURITY", "CHAIN", "LOCKER"],
+    [
+      "A metal device with a curved shackle that keeps a gate shut.",
+      "You snap this onto the hasp of a shed."
+    ]
+  ],
+  [
+    "home",
+    "DUSTPAN",
+    ["BROOM", "SWEEP", "FLOOR", "DIRT", "CLEAN"],
+    [
+      "A little tray with a handle for collecting crumbs.",
+      "You tilt this full of debris into the rubbish bin."
+    ]
+  ],
+  [
+    "home",
+    "COLANDER",
+    ["DRAIN", "PASTA", "HOLES", "STRAINER", "WATER"],
+    [
+      "A perforated bowl used after boiling spaghetti.",
+      "Rinse your berries in this utensil over the sink."
+    ]
+  ],
+  [
+    "home",
+    "LADLE",
+    ["SOUP", "SPOON", "SERVE", "SCOOP", "HANDLE"],
+    [
+      "A deep round utensil for transferring stew into bowls.",
+      "This hangs beside the punch bowl at a party."
+    ]
+  ],
+  [
+    "home",
+    "KETTLE",
+    ["BOIL", "WATER", "TEA", "WHISTLE", "HOT"],
+    [
+      "An appliance with a spout you fill before making instant coffee.",
+      "The saying about the pot calling another vessel black."
+    ]
+  ],
+  [
+    "home",
+    "WHISK",
+    ["EGGS", "BEAT", "MIX", "BAKING", "WIRE"],
+    [
+      "A balloon-shaped utensil for getting lumps out of batter.",
+      "You use this by hand to turn cream into a fluffy topping."
+    ]
+  ],
+  [
+    "home",
+    "SPATULA",
+    ["FLIP", "PANCAKE", "COOK", "FRYING", "SCRAPE"],
+    [
+      "A flat utensil that slides under an omelette.",
+      "A flexible silicone tool for getting batter out of a bowl."
+    ]
+  ],
+  [
+    "home",
+    "CORKSCREW",
+    ["WINE", "BOTTLE", "OPEN", "TWIST", "SPIRAL"],
+    [
+      "A sommelier uses this tool before pouring your drink.",
+      "A roller coaster inversion that resembles a helix."
+    ]
+  ],
+  [
+    "home",
+    "THERMOS",
+    ["HOT", "COLD", "DRINK", "FLASK", "INSULATED"],
+    [
+      "A sealed container that keeps soup warm until lunchtime.",
+      "You pour coffee from this after a long hike."
+    ]
+  ],
+  [
+    "home",
+    "PLUNGER",
+    ["TOILET", "CLOG", "SUCTION", "DRAIN", "PLUMBER"],
+    [
+      "A rubber cup on a stick for clearing a blocked pipe.",
+      "You pump this up and down when the bathroom fixture overflows."
+    ]
+  ],
+  [
+    "home",
+    "SQUEEGEE",
+    ["WINDOW", "GLASS", "WIPE", "RUBBER", "WATER"],
+    [
+      "A tool you drag across a shower screen to remove droplets.",
+      "The attendant uses this blade on your windshield at a gas station."
+    ]
+  ],
+  [
+    "home",
+    "WHEELBARROW",
+    ["GARDEN", "PUSH", "CARRY", "SOIL", "HANDLES"],
+    [
+      "A one-tired cart for moving a heavy load of bricks.",
+      "In a playground race, one person holds another person's ankles."
+    ]
+  ],
+  [
+    "home",
+    "TRELLIS",
+    ["PLANT", "CLIMB", "GARDEN", "LATTICE", "VINE"],
+    [
+      "A crisscross wooden frame that supports roses.",
+      "Beans can wind their stems around this upright structure."
+    ]
+  ],
+  [
+    "home",
+    "GUTTER",
+    ["RAIN", "ROOF", "DRAIN", "BOWLING", "WATER"],
+    [
+      "Leaves collect in this channel along the edge of a house.",
+      "Your ball lands here when you miss every pin."
+    ]
+  ],
+  [
+    "food",
+    "AVOCADO",
+    ["GREEN", "GUACAMOLE", "TOAST", "PIT", "FRUIT"],
+    [
+      "A creamy produce item you mash with lime for a dip.",
+      "Its large smooth stone is surrounded by buttery flesh."
+    ]
+  ],
+  [
+    "food",
+    "ARTICHOKE",
+    ["LEAVES", "HEART", "VEGETABLE", "DIP", "THISTLE"],
+    [
+      "You pull apart this edible flower bud and scrape each piece with your teeth.",
+      "A prickly-looking ingredient often paired with spinach in a creamy appetizer."
+    ]
+  ],
+  [
+    "food",
+    "ASPARAGUS",
+    ["GREEN", "SPEARS", "VEGETABLE", "STALK", "SPRING"],
+    [
+      "Long slender produce with pointed tips, often served beside salmon.",
+      "Eating this can give your urine a distinctive smell."
+    ]
+  ],
+  [
+    "food",
+    "BEETROOT",
+    ["RED", "PURPLE", "VEGETABLE", "SALAD", "BORSCHT"],
+    [
+      "An earthy ingredient that stains your chopping board magenta.",
+      "A round underground crop often pickled in jars."
+    ]
+  ],
+  [
+    "food",
+    "CUCUMBER",
+    ["GREEN", "PICKLE", "SALAD", "VEGETABLE", "SLICE"],
+    [
+      "People put circles of this over their eyes at a spa.",
+      "A long watery ingredient in tzatziki."
+    ]
+  ],
+  [
+    "food",
+    "EGGPLANT",
+    ["PURPLE", "VEGETABLE", "AUBERGINE", "PARMESAN", "MOUSSAKA"],
+    [
+      "The main ingredient in baba ganoush.",
+      "A glossy pear-shaped crop with a spongy pale interior."
+    ]
+  ],
+  [
+    "food",
+    "GARLIC",
+    ["CLOVE", "VAMPIRE", "BREATH", "SMELL", "BULB"],
+    [
+      "A pungent ingredient crushed into aioli.",
+      "You rub this on toasted bread before adding tomatoes for bruschetta."
+    ]
+  ],
+  [
+    "food",
+    "GINGER",
+    ["SPICE", "ROOT", "HAIR", "ALE", "SUSHI"],
+    [
+      "A knobbly ingredient grated into stir-fries.",
+      "This gives certain snap biscuits their warm peppery taste."
+    ]
+  ],
+  [
+    "food",
+    "RADISH",
+    ["RED", "WHITE", "ROOT", "SALAD", "PEPPERY"],
+    [
+      "A small crunchy vegetable often carved into a rose.",
+      "Daikon is a long pale variety of this crop."
+    ]
+  ],
+  [
+    "food",
+    "SPINACH",
+    ["POPEYE", "GREEN", "LEAF", "IRON", "VEGETABLE"],
+    ["The main ingredient in saag paneer.", "A bagful wilts to almost nothing in a frying pan."]
+  ],
+  [
+    "food",
+    "APRICOT",
+    ["PEACH", "ORANGE", "FRUIT", "DRIED", "STONE"],
+    [
+      "A small velvety relative of the plum, often made into jam.",
+      "Its preserve is brushed over pastries to give them a glossy finish."
+    ]
+  ],
+  [
+    "food",
+    "POMEGRANATE",
+    ["SEEDS", "RED", "FRUIT", "JUICE", "GRENADINE"],
+    [
+      "You crack its leathery skin to reveal edible ruby jewels.",
+      "Persephone ate part of this and had to return to the underworld."
+    ]
+  ],
+  [
+    "food",
+    "RAISIN",
+    ["GRAPE", "DRIED", "FRUIT", "WRINKLE", "CEREAL"],
+    [
+      "A chewy little morsel often found in oatmeal cookies.",
+      "The disputed ingredient in a cinnamon bagel."
+    ]
+  ],
+  [
+    "food",
+    "PISTACHIO",
+    ["NUT", "GREEN", "SHELL", "ICE CREAM", "SALT"],
+    [
+      "You pry apart its beige casing to get at the edible kernel.",
+      "A common filling in baklava and fancy chocolate bars."
+    ]
+  ],
+  [
+    "food",
+    "CINNAMON",
+    ["SPICE", "BROWN", "ROLL", "BARK", "SWEET"],
+    [
+      "The aromatic dust on top of a cappuccino.",
+      "Long curled sticks of this simmer in mulled cider."
+    ]
+  ],
+  [
+    "food",
+    "SAFFRON",
+    ["SPICE", "YELLOW", "EXPENSIVE", "PAELLA", "CROCUS"],
+    ["Tiny crimson threads used to flavor rice.", "A few strands turn a whole pot golden."]
+  ],
+  [
+    "food",
+    "GRANOLA",
+    ["OATS", "BREAKFAST", "CEREAL", "YOGURT", "NUTS"],
+    [
+      "Crunchy baked clusters sold loose or pressed into snack bars.",
+      "A honey-sweetened topping you sprinkle over a smoothie bowl."
+    ]
+  ],
+  [
+    "food",
+    "PORRIDGE",
+    ["OATS", "BREAKFAST", "BOWL", "HOT", "GOLDILOCKS"],
+    [
+      "The three bears complained that someone had eaten theirs.",
+      "A thick cooked grain dish that you stir on the stove."
+    ]
+  ],
+  [
+    "food",
+    "FONDUE",
+    ["CHEESE", "CHOCOLATE", "DIP", "MELT", "POT"],
+    [
+      "A Swiss communal meal involving bread on long forks.",
+      "You lower strawberries into a warm dessert fountain for this style of treat."
+    ]
+  ],
+  [
+    "food",
+    "MERINGUE",
+    ["EGG", "WHITE", "SUGAR", "WHIP", "DESSERT"],
+    ["The crisp airy base of a pavlova.", "The fluffy browned topping on a lemon pie."]
+  ],
+  [
+    "nature",
+    "OTTER",
+    ["RIVER", "SWIM", "FUR", "SHELLFISH", "FLOAT"],
+    [
+      "A playful aquatic mammal that cracks food with a rock on its belly.",
+      "These animals sometimes hold paws while resting at sea."
+    ]
+  ],
+  [
+    "nature",
+    "SLOTH",
+    ["SLOW", "TREE", "LAZY", "SLEEP", "CLAW"],
+    [
+      "An animal that spends much of its life hanging upside down.",
+      "One of the seven deadly sins, associated with doing nothing."
+    ]
+  ],
+  [
+    "nature",
+    "PLATYPUS",
+    ["DUCK", "BILL", "EGG", "MAMMAL", "AUSTRALIA"],
+    [
+      "An aquatic creature that looks assembled from several different animals.",
+      "Its male has a venomous spur on its hind leg."
+    ]
+  ],
+  [
+    "nature",
+    "PORCUPINE",
+    ["QUILLS", "SPIKES", "RODENT", "HEDGEHOG", "SHARP"],
+    [
+      "An animal whose defensive coat can get stuck in a predator's face.",
+      "It looks like a walking pincushion and cannot shoot its weapons."
+    ]
+  ],
+  [
+    "nature",
+    "ARMADILLO",
+    ["ARMOR", "SHELL", "ROLL", "TEXAS", "MAMMAL"],
+    [
+      "A burrowing animal dressed like a tiny tank.",
+      "Some species curl into a ball when threatened."
+    ]
+  ],
+  [
+    "nature",
+    "MEERKAT",
+    ["STAND", "LOOKOUT", "DESERT", "MONGOOSE", "TIMON"],
+    [
+      "A little animal that rises on its hind legs to watch for danger.",
+      "Members of its group take turns guarding their burrow."
+    ]
+  ],
+  [
+    "nature",
+    "LEMUR",
+    ["MADAGASCAR", "TAIL", "PRIMATE", "MONKEY", "RING"],
+    [
+      "An island animal with a striped rear appendage and large round eyes.",
+      "King Julien is this kind of creature."
+    ]
+  ],
+  [
+    "nature",
+    "HYENA",
+    ["LAUGH", "SCAVENGER", "AFRICA", "SPOTS", "PACK"],
+    [
+      "A strong-jawed predator whose call resembles a human cackle.",
+      "Scar's henchmen in The Lion King are these animals."
+    ]
+  ],
+  [
+    "nature",
+    "HIPPOPOTAMUS",
+    ["RIVER", "LARGE", "AFRICA", "MOUTH", "WATER"],
+    [
+      "A heavy gray herbivore with surprisingly dangerous jaws.",
+      "The hungry hungry animals in a marble-gobbling board game."
+    ]
+  ],
+  [
+    "nature",
+    "RHINOCEROS",
+    ["HORN", "GRAY", "AFRICA", "CHARGE", "ENDANGERED"],
+    [
+      "A thick-skinned herbivore that looks like a prehistoric tank.",
+      "Poachers target the growth on this animal's nose."
+    ]
+  ],
+  [
+    "nature",
+    "PELICAN",
+    ["BIRD", "BEAK", "POUCH", "FISH", "SEA"],
+    [
+      "A coastal animal with a stretchy bag under its enormous bill.",
+      "It scoops up its dinner and drains the liquid before swallowing."
+    ]
+  ],
+  [
+    "nature",
+    "WOODPECKER",
+    ["BIRD", "TREE", "BEAK", "TAP", "HOLE"],
+    [
+      "An animal that drums on trunks to find insects.",
+      "Its repeated knocking can sound like a tiny jackhammer in the forest."
+    ]
+  ],
+  [
+    "nature",
+    "HUMMINGBIRD",
+    ["WINGS", "HOVER", "NECTAR", "FLOWER", "SMALL"],
+    [
+      "A tiny animal that can fly backward.",
+      "People hang red feeders filled with sugary liquid for this visitor."
+    ]
+  ],
+  [
+    "nature",
+    "OSTRICH",
+    ["BIRD", "FLY", "SAND", "NECK", "EGG"],
+    [
+      "A long-legged animal ridden in some races.",
+      "This feathered sprinter is mistakenly said to bury its head when frightened."
+    ]
+  ],
+  [
+    "nature",
+    "DRAGONFLY",
+    ["INSECT", "WINGS", "POND", "HOVER", "MOSQUITO"],
+    [
+      "A slender airborne hunter that starts life as an aquatic nymph.",
+      "Its four transparent blades look like a tiny helicopter."
+    ]
+  ],
+  [
+    "nature",
+    "TADPOLE",
+    ["FROG", "TAIL", "POND", "BABY", "LEGS"],
+    [
+      "An early life stage that wriggles around using gills.",
+      "This eventually becomes an amphibian that can live on land."
+    ]
+  ],
+  [
+    "nature",
+    "SALAMANDER",
+    ["AMPHIBIAN", "LIZARD", "NEWT", "TAIL", "FIRE"],
+    [
+      "A moist-skinned creature that can regrow a lost limb.",
+      "The axolotl belongs to this group of animals."
+    ]
+  ],
+  [
+    "nature",
+    "ANEMONE",
+    ["SEA", "TENTACLES", "STING", "CLOWNFISH", "FLOWER"],
+    [
+      "Nemo's family lives inside this colorful marine animal.",
+      "A soft creature attached to a rock that captures passing prey."
+    ]
+  ],
+  [
+    "nature",
+    "CORAL",
+    ["REEF", "OCEAN", "POLYP", "BLEACHING", "COLORFUL"],
+    [
+      "Tiny animals build these branching limestone structures.",
+      "This pinkish-orange shade takes its name from underwater colonies."
+    ]
+  ],
+  [
+    "nature",
+    "MANGROVE",
+    ["TREE", "ROOTS", "COAST", "SWAMP", "SALT"],
+    [
+      "A tropical plant that seems to stand on stilts above the tide.",
+      "Its tangled lower branches shelter juvenile fish from predators."
+    ]
+  ],
+  [
+    "science",
+    "ECLIPSE",
+    ["SUN", "MOON", "SHADOW", "SOLAR", "LUNAR"],
+    [
+      "An astronomical alignment that can turn daytime dark.",
+      "Observers wear special protective glasses for this brief celestial event."
+    ]
+  ],
+  [
+    "science",
+    "COMET",
+    ["TAIL", "SPACE", "ICE", "HALLEY", "ORBIT"],
+    [
+      "A dirty frozen object that develops a glowing plume near our star.",
+      "A celestial visitor that may reappear only once in a lifetime."
+    ]
+  ],
+  [
+    "science",
+    "METEORITE",
+    ["SPACE", "ROCK", "EARTH", "CRATER", "IRON"],
+    [
+      "A chunk from beyond our atmosphere that reaches the ground.",
+      "Museums display these surviving fragments of shooting stars."
+    ]
+  ],
+  [
+    "science",
+    "SATELLITE",
+    ["ORBIT", "SPACE", "EARTH", "SIGNAL", "MOON"],
+    [
+      "A machine high above us that helps your navigation system find you.",
+      "Weather forecasters get overhead pictures from this."
+    ]
+  ],
+  [
+    "science",
+    "GRAVITY",
+    ["FALL", "FORCE", "NEWTON", "PULL", "WEIGHT"],
+    [
+      "The reason a tossed ball returns to the ground.",
+      "Astronauts appear to escape this attraction while circling our planet."
+    ]
+  ],
+  [
+    "science",
+    "FRICTION",
+    ["RUB", "HEAT", "RESISTANCE", "SURFACE", "FORCE"],
+    [
+      "This makes bicycle brakes work when the pads grip the rim.",
+      "Tension between coworkers can also be called this."
+    ]
+  ],
+  [
+    "science",
+    "STATIC",
+    ["ELECTRICITY", "SHOCK", "HAIR", "CHARGE", "RADIO"],
+    [
+      "Clothes cling together after coming out of the dryer because of this.",
+      "The opposite of dynamic or moving."
+    ]
+  ],
+  [
+    "science",
+    "PRISM",
+    ["GLASS", "LIGHT", "RAINBOW", "TRIANGLE", "REFRACT"],
+    [
+      "A transparent solid that splits a beam into a spectrum.",
+      "The object on the cover of The Dark Side of the Moon."
+    ]
+  ],
+  [
+    "science",
+    "FOSSIL",
+    ["DINOSAUR", "BONE", "ROCK", "ANCIENT", "EXTINCT"],
+    [
+      "A preserved impression of an organism from millions of years ago.",
+      "You might uncover a prehistoric fern imprint in a quarry."
+    ]
+  ],
+  [
+    "science",
+    "GLACIER",
+    ["ICE", "SLOW", "MOUNTAIN", "MELT", "FROZEN"],
+    [
+      "A vast moving mass that carves a U-shaped valley.",
+      "Chunks breaking off its seaward edge become floating bergs."
+    ]
+  ],
+  [
+    "science",
+    "GEYSER",
+    ["HOT", "WATER", "ERUPT", "STEAM", "YELLOWSTONE"],
+    [
+      "Old Faithful is a famous example of this natural fountain.",
+      "Pressure underground sends a boiling jet into the air."
+    ]
+  ],
+  [
+    "science",
+    "QUICKSAND",
+    ["SINK", "TRAP", "DESERT", "STUCK", "MUD"],
+    [
+      "In adventure movies, this patch of ground swallows the explorer.",
+      "A saturated granular mixture that loses strength when disturbed."
+    ]
+  ],
+  [
+    "science",
+    "WHIRLPOOL",
+    ["WATER", "SPIN", "CURRENT", "VORTEX", "DRAIN"],
+    [
+      "A swirling funnel that can drag a boat inward.",
+      "A miniature version appears when you empty a bathtub."
+    ]
+  ],
+  [
+    "science",
+    "MONSOON",
+    ["RAIN", "SEASON", "INDIA", "WIND", "FLOOD"],
+    [
+      "A yearly weather shift that brings months of downpours to South Asia.",
+      "Farmers time their planting around this wet period."
+    ]
+  ],
+  [
+    "science",
+    "DROUGHT",
+    ["RAIN", "DRY", "WATER", "LACK", "CROPS"],
+    [
+      "A prolonged weather condition that can leave reservoirs empty.",
+      "A team that has gone decades without winning a trophy has this."
+    ]
+  ],
+  [
+    "science",
+    "OASIS",
+    ["DESERT", "WATER", "PALM", "SAND", "MIRAGE"],
+    [
+      "A fertile refuge travelers hope to find in an arid region.",
+      "A quiet courtyard can be described as one amid a noisy city."
+    ]
+  ],
+  [
+    "science",
+    "ECHO",
+    ["SOUND", "REPEAT", "VOICE", "CANYON", "HEAR"],
+    [
+      "You shout into a cave and your words come back to you.",
+      "A reflected vibration that returns after a delay."
+    ]
+  ],
+  [
+    "science",
+    "OXYGEN",
+    ["BREATHE", "AIR", "GAS", "LUNGS", "ELEMENT"],
+    [
+      "Hospitals can supply this through a mask to help patients.",
+      "A flame needs this to keep burning."
+    ]
+  ],
+  [
+    "science",
+    "MICROSCOPE",
+    ["SMALL", "LENS", "MAGNIFY", "LAB", "SLIDE"],
+    [
+      "A scientist peers through this to inspect bacteria.",
+      "This instrument reveals the cells in a thin piece of onion."
+    ]
+  ],
+  [
+    "science",
+    "PETRIFIED",
+    ["STONE", "FOSSIL", "WOOD", "SCARED", "TERRIFIED"],
+    [
+      "So frightened that you feel unable to move.",
+      "The state of a prehistoric log after minerals replace its tissue."
+    ]
+  ],
+  [
+    "travel",
+    "FERRY",
+    ["BOAT", "WATER", "CROSS", "PASSENGER", "ISLAND"],
+    [
+      "You drive your car onto this vessel to reach the other shore.",
+      "A scheduled service linking two ports across a strait."
+    ]
+  ],
+  [
+    "travel",
+    "GONDOLA",
+    ["VENICE", "CANAL", "BOAT", "POLE", "ITALY"],
+    [
+      "A narrow black vessel steered by a standing person.",
+      "The enclosed cabin suspended from a cable at a ski resort."
+    ]
+  ],
+  [
+    "travel",
+    "TRAM",
+    ["TRACK", "STREET", "RAIL", "CITY", "ELECTRIC"],
+    [
+      "A passenger vehicle sharing the road while drawing power from overhead wires.",
+      "Melbourne is famous for this kind of public transport."
+    ]
+  ],
+  [
+    "travel",
+    "SCOOTER",
+    ["RIDE", "WHEELS", "KICK", "HANDLEBARS", "ELECTRIC"],
+    [
+      "You stand on its narrow deck with one foot and propel yourself with the other.",
+      "A Vespa is a motorized version of this vehicle."
+    ]
+  ],
+  [
+    "travel",
+    "SIDECAR",
+    ["MOTORCYCLE", "PASSENGER", "WHEEL", "ATTACHED", "RIDE"],
+    [
+      "An extra seat in a little pod beside a motorbike.",
+      "A cocktail made with cognac, orange liqueur and lemon juice."
+    ]
+  ],
+  [
+    "travel",
+    "RICKSHAW",
+    ["CART", "PULL", "BICYCLE", "PASSENGER", "ASIA"],
+    [
+      "A small taxi powered by a person pedaling or running.",
+      "A three-wheeled vehicle used for short trips through crowded streets."
+    ]
+  ],
+  [
+    "travel",
+    "ZEPPELIN",
+    ["AIRSHIP", "BLIMP", "HINDENBURG", "GAS", "FLY"],
+    [
+      "A rigid cigar-shaped craft once used for transatlantic journeys.",
+      "Led is the first half of a famous rock band's name; this is the second."
+    ]
+  ],
+  [
+    "travel",
+    "HOVERCRAFT",
+    ["AIR", "CUSHION", "WATER", "FLOAT", "VEHICLE"],
+    [
+      "A machine with a flexible skirt that skims across land or sea.",
+      "Its powerful fans let it travel over mud without tires touching the ground."
+    ]
+  ],
+  [
+    "travel",
+    "KAYAK",
+    ["PADDLE", "CANOE", "WATER", "BOAT", "RIVER"],
+    [
+      "You sit low in this narrow craft with a blade at each end of your oar.",
+      "An overturned user can recover with a rolling maneuver."
+    ]
+  ],
+  [
+    "travel",
+    "TURNSTILE",
+    ["TICKET", "GATE", "ROTATE", "ENTER", "BARRIER"],
+    [
+      "A waist-high device that lets one person through at a time.",
+      "You push its three metal arms after paying your subway fare."
+    ]
+  ],
+  [
+    "travel",
+    "ROUNDABOUT",
+    ["TRAFFIC", "CIRCLE", "ROAD", "EXIT", "DRIVE"],
+    [
+      "An intersection where vehicles keep going around a central island.",
+      "A long indirect way of saying something can be described as this."
+    ]
+  ],
+  [
+    "travel",
+    "TOLLBOOTH",
+    ["PAY", "ROAD", "BRIDGE", "MONEY", "HIGHWAY"],
+    [
+      "A little cabin where a motorist hands over a fee before continuing.",
+      "An attendant in this structure collects your fare at a crossing."
+    ]
+  ],
+  [
+    "travel",
+    "LAYOVER",
+    ["AIRPORT", "FLIGHT", "WAIT", "CONNECTING", "STOP"],
+    [
+      "The gap between two planes on a long journey.",
+      "A traveler may spend these hours exploring an intermediate city."
+    ]
+  ],
+  [
+    "travel",
+    "JET LAG",
+    ["TIME", "ZONE", "TIRED", "FLIGHT", "SLEEP"],
+    [
+      "Your body thinks it is morning after you land somewhere at midnight.",
+      "The reason you feel wide awake at three in the morning after crossing continents."
+    ]
+  ],
+  [
+    "travel",
+    "SOUVENIR",
+    ["TRIP", "GIFT", "MEMORY", "TOURIST", "SHOP"],
+    [
+      "A little Eiffel Tower you bring home from Paris.",
+      "A keepsake proving you visited somewhere special."
+    ]
+  ],
+  [
+    "travel",
+    "ITINERARY",
+    ["TRAVEL", "SCHEDULE", "PLAN", "TRIP", "ROUTE"],
+    [
+      "A document listing each destination and the dates you will be there.",
+      "The guide checks this to see which museum comes after lunch."
+    ]
+  ],
+  [
+    "travel",
+    "HOSTEL",
+    ["HOTEL", "CHEAP", "BACKPACKER", "DORMITORY", "BUNK"],
+    [
+      "Budget accommodation where strangers often share a bedroom.",
+      "A traveler might meet new friends in its communal kitchen."
+    ]
+  ],
+  [
+    "travel",
+    "CARAVAN",
+    ["TRAILER", "CAMPING", "TOW", "VEHICLE", "HOLIDAY"],
+    [
+      "A tiny home pulled behind a car.",
+      "A group of traders and camels traveling together across a desert."
+    ]
+  ],
+  [
+    "travel",
+    "CABOOSE",
+    ["TRAIN", "LAST", "RAILWAY", "CAR", "RED"],
+    [
+      "The crew's quarters at the rear of an old freight service.",
+      "The little wagon bringing up the end of a locomotive procession."
+    ]
+  ],
+  [
+    "travel",
+    "PERISCOPE",
+    ["SUBMARINE", "SEE", "MIRROR", "WATER", "LENS"],
+    [
+      "An optical tube that lets a hidden observer look above an obstacle.",
+      "The captain raises this instrument before surfacing."
+    ]
+  ],
+  [
+    "work",
+    "JANITOR",
+    ["CLEAN", "SCHOOL", "MOP", "CUSTODIAN", "FLOOR"],
+    [
+      "The worker with a big bunch of keys who empties the bins at night.",
+      "This employee takes care of a building after everyone else leaves."
+    ]
+  ],
+  [
+    "work",
+    "FLORIST",
+    ["FLOWER", "BOUQUET", "SHOP", "ROSE", "ARRANGE"],
+    [
+      "You hire this person to decorate your wedding with fresh blooms.",
+      "This professional wraps a dozen tulips in paper for delivery."
+    ]
+  ],
+  [
+    "work",
+    "LIFEGUARD",
+    ["SWIM", "POOL", "RESCUE", "BEACH", "DROWN"],
+    [
+      "A person in a high chair watching for trouble near the diving board.",
+      "The worker who blows a whistle when children run on the wet tiles."
+    ]
+  ],
+  [
+    "work",
+    "PARAMEDIC",
+    ["AMBULANCE", "EMERGENCY", "HOSPITAL", "PATIENT", "INJURY"],
+    [
+      "A trained responder who provides treatment before reaching a doctor.",
+      "This person checks your pulse at the scene of a car crash."
+    ]
+  ],
+  [
+    "work",
+    "AUCTIONEER",
+    ["BID", "SELL", "HAMMER", "PRICE", "GOING"],
+    [
+      "The fast-talking person conducting a sale to the highest offer.",
+      "This speaker announces who gets the antique vase after the final call."
+    ]
+  ],
+  [
+    "work",
+    "JOCKEY",
+    ["HORSE", "RACE", "RIDE", "SADDLE", "SMALL"],
+    [
+      "An athlete in colorful silks competing in the Kentucky Derby.",
+      "This competitor crouches low on a galloping animal."
+    ]
+  ],
+  [
+    "work",
+    "USHER",
+    ["SEAT", "THEATER", "TICKET", "AISLE", "CINEMA"],
+    [
+      "A staff member who guides you to your row before a performance.",
+      "A wedding helper who escorts arriving guests into the ceremony."
+    ]
+  ],
+  [
+    "work",
+    "EDITOR",
+    ["WRITE", "BOOK", "NEWSPAPER", "CORRECT", "PUBLISH"],
+    [
+      "The person who cuts unnecessary paragraphs from a manuscript.",
+      "A film professional who chooses which shots make the final version."
+    ]
+  ],
+  [
+    "work",
+    "CONDUCTOR",
+    ["ORCHESTRA", "BATON", "MUSIC", "TRAIN", "LEAD"],
+    [
+      "Copper is a good one because electricity passes through it easily.",
+      "A performer facing away from the audience and coordinating the instrumentalists."
+    ]
+  ],
+  [
+    "work",
+    "STUNT DOUBLE",
+    ["ACTOR", "DANGER", "MOVIE", "ACTION", "REPLACE"],
+    [
+      "The person who jumps off a building so the star does not have to.",
+      "A lookalike hired to perform the risky parts of a scene."
+    ]
+  ],
+  [
+    "work",
+    "VENTRILOQUIST",
+    ["PUPPET", "VOICE", "DUMMY", "TALK", "LIPS"],
+    [
+      "An entertainer who makes a wooden figure appear to speak.",
+      "A performer creates a conversation with a character sitting on their knee."
+    ]
+  ],
+  [
+    "work",
+    "PUPPETEER",
+    ["STRINGS", "DOLL", "CONTROL", "SHOW", "MARIONETTE"],
+    [
+      "An entertainer operating a little character from behind a curtain.",
+      "The human performer hidden underneath a Muppet."
+    ]
+  ],
+  [
+    "work",
+    "SCULPTOR",
+    ["STATUE", "ARTIST", "CLAY", "CARVE", "STONE"],
+    [
+      "Someone who creates three-dimensional works for a gallery.",
+      "Rodin and the maker of Mount Rushmore had this occupation."
+    ]
+  ],
+  [
+    "work",
+    "ARCHAEOLOGIST",
+    ["DIG", "ANCIENT", "FOSSIL", "HISTORY", "ARTIFACT"],
+    [
+      "A researcher who studies past civilizations through what they left behind.",
+      "Indiana Jones's profession when he is not running from boulders."
+    ]
+  ],
+  [
+    "work",
+    "BEEKEEPER",
+    ["HIVE", "HONEY", "STING", "SUIT", "SMOKE"],
+    [
+      "A person tending boxes of pollinating insects.",
+      "This worker wears a mesh veil while checking on a colony's queen."
+    ]
+  ],
+  [
+    "work",
+    "BLACKSMITH",
+    ["METAL", "HAMMER", "ANVIL", "FORGE", "IRON"],
+    [
+      "A traditional craftsperson who shapes horseshoes while they glow.",
+      "You hear rhythmic clanging from this worker's workshop."
+    ]
+  ],
+  [
+    "work",
+    "LOCKSMITH",
+    ["KEY", "DOOR", "OPEN", "SAFE", "SECURITY"],
+    [
+      "You call this professional when you cannot get into your apartment.",
+      "This specialist repairs the mechanism inside a deadbolt."
+    ]
+  ],
+  [
+    "work",
+    "CARTOGRAPHER",
+    ["MAP", "DRAW", "GEOGRAPHY", "WORLD", "CHART"],
+    [
+      "A professional who represents terrain and borders on paper.",
+      "This person's work helps explorers navigate unfamiliar places."
+    ]
+  ],
+  [
+    "work",
+    "METEOROLOGIST",
+    ["WEATHER", "FORECAST", "RAIN", "TEMPERATURE", "CLIMATE"],
+    [
+      "A scientist who studies the atmosphere.",
+      "The person on television pointing at tomorrow's storm front."
+    ]
+  ],
+  [
+    "work",
+    "APPRENTICE",
+    ["LEARN", "TRADE", "TRAIN", "MASTER", "BEGINNER"],
+    [
+      "A newcomer working alongside an experienced craftsperson.",
+      "The sorcerer's inexperienced assistant who loses control of enchanted brooms."
+    ]
+  ],
+  [
+    "arts",
+    "ACCORDION",
+    ["MUSIC", "SQUEEZE", "BELLOWS", "KEYBOARD", "INSTRUMENT"],
+    [
+      "A portable box that expands and contracts while you play a tune.",
+      "A folding door is sometimes named after this strapped-on concert device."
+    ]
+  ],
+  [
+    "arts",
+    "HARMONICA",
+    ["BLOW", "MOUTH", "BLUES", "MUSIC", "INSTRUMENT"],
+    [
+      "A tiny metal rectangle you play by breathing in and out.",
+      "A folk singer can wear this in a holder while strumming a guitar."
+    ]
+  ],
+  [
+    "arts",
+    "SAXOPHONE",
+    ["JAZZ", "BRASS", "REED", "MUSIC", "INSTRUMENT"],
+    [
+      "Lisa Simpson plays this curved golden object.",
+      "A woodwind with keys and a flared bell, often heard in a smoky club."
+    ]
+  ],
+  [
+    "arts",
+    "TROMBONE",
+    ["SLIDE", "BRASS", "MUSIC", "TRUMPET", "INSTRUMENT"],
+    [
+      "A player changes pitch by moving a long U-shaped tube.",
+      "Seventy-six of these led the big parade in a famous musical."
+    ]
+  ],
+  [
+    "arts",
+    "UKULELE",
+    ["GUITAR", "HAWAII", "STRINGS", "SMALL", "STRUM"],
+    [
+      "A compact fretted instrument associated with island songs.",
+      "It looks like a miniature acoustic instrument and usually has four tuning pegs."
+    ]
+  ],
+  [
+    "arts",
+    "XYLOPHONE",
+    ["MUSIC", "BARS", "MALLET", "WOOD", "INSTRUMENT"],
+    [
+      "You strike a row of tuned blocks to play a melody.",
+      "A percussionist makes notes by tapping pieces arranged like a keyboard."
+    ]
+  ],
+  [
+    "arts",
+    "TAMBOURINE",
+    ["SHAKE", "JINGLE", "DRUM", "MUSIC", "PERCUSSION"],
+    [
+      "A handheld hoop with pairs of little metal discs around its edge.",
+      "A singer may tap this against their hip to keep the beat."
+    ]
+  ],
+  [
+    "arts",
+    "METRONOME",
+    ["BEAT", "TEMPO", "TICK", "MUSIC", "RHYTHM"],
+    [
+      "A pianist practices alongside this steadily clicking device.",
+      "You set its number to decide how quickly to play a piece."
+    ]
+  ],
+  [
+    "arts",
+    "KARAOKE",
+    ["SING", "LYRICS", "MICROPHONE", "SONG", "BAR"],
+    [
+      "An activity where amateurs perform over a backing track.",
+      "Friends rent a private room and take turns pretending to be pop stars."
+    ]
+  ],
+  [
+    "arts",
+    "LULLABY",
+    ["BABY", "SLEEP", "SONG", "SING", "SOOTHE"],
+    [
+      "Rock-a-bye is a familiar example of this gentle melody.",
+      "A quiet tune a parent hums beside a cradle."
+    ]
+  ],
+  [
+    "arts",
+    "ENCORE",
+    ["AGAIN", "AUDIENCE", "CLAP", "CONCERT", "MORE"],
+    [
+      "The extra performance after the band has supposedly finished.",
+      "Fans chant for the musicians to return to the stage."
+    ]
+  ],
+  [
+    "arts",
+    "MOSAIC",
+    ["TILE", "PICTURE", "PIECES", "ART", "PATTERN"],
+    [
+      "A design assembled from tiny colored fragments set in cement.",
+      "An ancient Roman floor decorated with thousands of little squares."
+    ]
+  ],
+  [
+    "arts",
+    "CLIFFHANGER",
+    ["ENDING", "SUSPENSE", "EPISODE", "NEXT", "WAIT"],
+    [
+      "A story cuts off just as the hero is about to learn the secret.",
+      "The unresolved finale that makes you immediately start another chapter."
+    ]
+  ],
+  [
+    "arts",
+    "SPOILER",
+    ["ENDING", "REVEAL", "PLOT", "RUIN", "MOVIE"],
+    [
+      "Someone tells you who the murderer is before you finish the book.",
+      "An aerodynamic attachment on the back of a sports car."
+    ]
+  ],
+  [
+    "arts",
+    "SEQUEL",
+    ["MOVIE", "SECOND", "FOLLOW", "ORIGINAL", "CONTINUE"],
+    [
+      "A new installment that picks up after an earlier story.",
+      "The Empire Strikes Back is this in relation to Star Wars."
+    ]
+  ],
+  [
+    "arts",
+    "MONTAGE",
+    ["SCENE", "EDIT", "FILM", "SEQUENCE", "CLIP"],
+    [
+      "A training passage that compresses months of practice into a few minutes.",
+      "A collection of images combined to tell a story quickly."
+    ]
+  ],
+  [
+    "arts",
+    "STORYBOARD",
+    ["DRAW", "FILM", "SCENE", "PLAN", "PANEL"],
+    [
+      "A comic-like outline of shots before a camera starts rolling.",
+      "An animator sketches the action in order on this visual guide."
+    ]
+  ],
+  [
+    "arts",
+    "HAIKU",
+    ["POEM", "JAPAN", "SYLLABLE", "THREE", "SEVENTEEN"],
+    [
+      "A brief verse often taught with a five-seven-five pattern.",
+      "A tiny piece of nature writing traditionally containing a seasonal reference."
+    ]
+  ],
+  [
+    "arts",
+    "CALLIGRAPHY",
+    ["WRITING", "PEN", "INK", "LETTER", "BEAUTIFUL"],
+    [
+      "The decorative art used on ornate wedding invitations.",
+      "A skilled hand makes sweeping strokes with a broad nib."
+    ]
+  ],
+  [
+    "arts",
+    "ORIGAMI",
+    ["PAPER", "FOLD", "JAPAN", "CRANE", "ART"],
+    [
+      "Making a little boat from a flat sheet without scissors or glue.",
+      "A square becomes an animal through a series of careful creases."
+    ]
+  ],
+  [
+    "leisure",
+    "DOMINOES",
+    ["TILE", "DOT", "GAME", "FALL", "CHAIN"],
+    [
+      "You match the numbered ends of these little rectangular pieces.",
+      "People stand these in a long row and knock over the first one."
+    ]
+  ],
+  [
+    "leisure",
+    "DARTS",
+    ["THROW", "BULLSEYE", "BOARD", "PUB", "TARGET"],
+    [
+      "A sport where three little pointed projectiles are aimed at numbered wedges.",
+      "Players try to finish on a double while counting down from 501."
+    ]
+  ],
+  [
+    "leisure",
+    "BILLIARDS",
+    ["POOL", "CUE", "BALL", "TABLE", "POCKET"],
+    [
+      "An indoor sport played on green felt with long wooden sticks.",
+      "In the carom version, you score by striking two other spheres."
+    ]
+  ],
+  [
+    "leisure",
+    "CROQUET",
+    ["MALLET", "BALL", "HOOP", "LAWN", "HIT"],
+    [
+      "Players guide wooden spheres through wire arches in a garden.",
+      "The Queen of Hearts plays this using flamingos and hedgehogs."
+    ]
+  ],
+  [
+    "leisure",
+    "BOCCE",
+    ["BALL", "THROW", "JACK", "ITALIAN", "COURT"],
+    [
+      "Players roll large spheres as close as possible to a smaller one.",
+      "A bowling-like outdoor pastime often played on a gravel rectangle."
+    ]
+  ],
+  [
+    "leisure",
+    "FENCING",
+    ["SWORD", "DUEL", "FOIL", "MASK", "TOUCH"],
+    [
+      "An Olympic sport in which competitors lunge at each other in white suits.",
+      "Protective barriers around property can also be called this."
+    ]
+  ],
+  [
+    "leisure",
+    "CURLING",
+    ["ICE", "STONE", "BROOM", "SWEEP", "OLYMPICS"],
+    [
+      "A winter sport where teammates guide a heavy granite object toward a bullseye.",
+      "Hair can undergo this process with heated tongs."
+    ]
+  ],
+  [
+    "leisure",
+    "ROWING",
+    ["OAR", "BOAT", "WATER", "CREW", "RACE"],
+    [
+      "An athlete sits facing backward while propelling a narrow craft.",
+      "A gym machine with a sliding seat simulates this activity."
+    ]
+  ],
+  [
+    "leisure",
+    "SNORKEL",
+    ["DIVE", "MASK", "TUBE", "BREATHE", "WATER"],
+    [
+      "A curved piece of equipment lets you look at fish while staying near the surface.",
+      "One end stays above the sea and the other goes in your mouth."
+    ]
+  ],
+  [
+    "leisure",
+    "TRAMPOLINE",
+    ["BOUNCE", "JUMP", "SPRING", "NET", "GYMNASTICS"],
+    [
+      "A stretched fabric platform that launches you upward when you land on it.",
+      "Backyard acrobats do flips on this elastic surface."
+    ]
+  ],
+  [
+    "leisure",
+    "TRAPEZE",
+    ["CIRCUS", "SWING", "ACROBAT", "FLY", "BAR"],
+    [
+      "A performer hangs from a suspended horizontal rod before leaping to a partner.",
+      "A high aerial act that often has a safety net underneath."
+    ]
+  ],
+  [
+    "leisure",
+    "TIGHTROPE",
+    ["BALANCE", "WALK", "CIRCUS", "HIGH", "WIRE"],
+    [
+      "A performer crosses this narrow suspended line while holding a long pole.",
+      "A risky negotiation is like trying to stay on this without falling."
+    ]
+  ],
+  [
+    "leisure",
+    "JUGGLE",
+    ["BALL", "THROW", "CATCH", "CIRCUS", "AIR"],
+    [
+      "Keep several objects moving between your hands without dropping them.",
+      "Try to manage work, study and childcare all at once."
+    ]
+  ],
+  [
+    "leisure",
+    "HOPSCOTCH",
+    ["JUMP", "CHALK", "SQUARE", "FOOT", "PLAYGROUND"],
+    [
+      "Children toss a pebble onto a numbered pavement diagram.",
+      "A player follows a pattern of single and double landings on the sidewalk."
+    ]
+  ],
+  [
+    "leisure",
+    "SCAVENGER HUNT",
+    ["FIND", "LIST", "CLUE", "SEARCH", "TREASURE"],
+    [
+      "Teams compete to collect specified objects before the deadline.",
+      "A party activity might send you to bring back a feather and a red button."
+    ]
+  ],
+  [
+    "leisure",
+    "CHARADES",
+    ["ACT", "MIME", "GUESS", "SILENT", "GAME"],
+    [
+      "You communicate a movie title using only gestures.",
+      "Players hold up fingers to indicate how many words their teammates need."
+    ]
+  ],
+  [
+    "leisure",
+    "JACKPOT",
+    ["WIN", "MONEY", "LOTTERY", "CASINO", "PRIZE"],
+    [
+      "Three matching symbols on a slot machine trigger this.",
+      "You have hit this when an unexpected opportunity works out perfectly."
+    ]
+  ],
+  [
+    "leisure",
+    "RAFFLE",
+    ["TICKET", "PRIZE", "DRAW", "WIN", "FUNDRAISER"],
+    [
+      "A numbered stub is pulled out of a drum to choose a lucky person.",
+      "At a school fair, you buy a chance to take home a donated hamper."
+    ]
+  ],
+  [
+    "leisure",
+    "POTTERY",
+    ["CLAY", "WHEEL", "KILN", "VASE", "CERAMIC"],
+    [
+      "The craft of shaping and firing bowls or mugs.",
+      "A student uses wet hands to turn a lump into a teacup."
+    ]
+  ],
+  [
+    "leisure",
+    "EMBROIDERY",
+    ["NEEDLE", "THREAD", "STITCH", "FABRIC", "SEW"],
+    [
+      "Decorative designs worked onto cloth inside a wooden hoop.",
+      "A shirt may have flowers made from colored floss on its collar."
+    ]
+  ],
+  [
+    "people",
+    "ALIBI",
+    ["CRIME", "EXCUSE", "PROOF", "WHERE", "INNOCENT"],
+    [
+      "A suspect says they were at the cinema when the robbery happened.",
+      "A witness confirms you were somewhere else during the incident."
+    ]
+  ],
+  [
+    "people",
+    "BLUFF",
+    ["POKER", "LIE", "PRETEND", "CARDS", "DECEIVE"],
+    [
+      "Act confident about a weak hand to make your opponent fold.",
+      "A steep cliff overlooking a river can also be called this."
+    ]
+  ],
+  [
+    "people",
+    "BRIBE",
+    ["MONEY", "PAY", "CORRUPT", "ILLEGAL", "FAVOR"],
+    [
+      "A secret envelope offered to an official to bend the rules.",
+      "Promising a child candy in exchange for good behavior can be described as this."
+    ]
+  ],
+  [
+    "people",
+    "GOSSIP",
+    ["RUMOR", "TALK", "SECRET", "PEOPLE", "SPREAD"],
+    [
+      "Juicy unverified news about who is dating whom.",
+      "Whispering about a coworker's private life by the coffee machine."
+    ]
+  ],
+  [
+    "people",
+    "GRUDGE",
+    ["ANGER", "RESENT", "FORGIVE", "HOLD", "PAST"],
+    [
+      "Still refusing to speak to someone because of an old insult.",
+      "A lasting bad feeling toward the person who wronged you."
+    ]
+  ],
+  [
+    "people",
+    "ENVY",
+    ["JEALOUS", "WANT", "GREEN", "POSSESSION", "DESIRE"],
+    [
+      "The feeling when your neighbor gets the exact car you dream of owning.",
+      "One of the seven deadly sins, prompted by another person's good fortune."
+    ]
+  ],
+  [
+    "people",
+    "EMPATHY",
+    ["FEEL", "UNDERSTAND", "SYMPATHY", "SHOES", "EMOTION"],
+    [
+      "Imagining an experience from someone else's point of view.",
+      "A friend's distress affects you as if it were happening to you."
+    ]
+  ],
+  [
+    "people",
+    "NOSTALGIA",
+    ["PAST", "MEMORY", "CHILDHOOD", "MISS", "OLD"],
+    [
+      "The warm ache brought on by hearing your school disco playlist.",
+      "Looking back fondly on the good days that are gone."
+    ]
+  ],
+  [
+    "people",
+    "SUPERSTITION",
+    ["LUCK", "BELIEF", "BLACK CAT", "LADDER", "THIRTEEN"],
+    [
+      "Refusing to open an umbrella indoors for fear of bad consequences.",
+      "Knocking on wood after saying things are going well."
+    ]
+  ],
+  [
+    "people",
+    "COINCIDENCE",
+    ["CHANCE", "SAME", "HAPPEN", "ACCIDENT", "FATE"],
+    [
+      "You think of a friend just as they call you.",
+      "Two unrelated guests arrive wearing identical outfits."
+    ]
+  ],
+  [
+    "people",
+    "DILEMMA",
+    ["CHOICE", "DECISION", "TWO", "DIFFICULT", "PROBLEM"],
+    [
+      "You must attend either your best friend's wedding or your sibling's graduation.",
+      "A situation in which every available option has an unwanted consequence."
+    ]
+  ],
+  [
+    "people",
+    "COMPROMISE",
+    ["AGREE", "MIDDLE", "BOTH", "DEAL", "SETTLE"],
+    [
+      "Each side gives up something to end an argument.",
+      "You want pizza and I want curry, so we alternate this week and next."
+    ]
+  ],
+  [
+    "people",
+    "ETIQUETTE",
+    ["MANNERS", "POLITE", "RULE", "BEHAVIOR", "SOCIAL"],
+    [
+      "Knowing which fork to use at a formal dinner.",
+      "The conventions that say you should RSVP to an invitation."
+    ]
+  ],
+  [
+    "people",
+    "SARCASM",
+    ["IRONY", "TONE", "OPPOSITE", "MOCK", "SAY"],
+    [
+      "Calling a downpour perfect picnic weather with a dry delivery.",
+      "Thanking someone for being so helpful after they make things worse."
+    ]
+  ],
+  [
+    "people",
+    "PATIENCE",
+    ["WAIT", "CALM", "TIME", "TOLERATE", "VIRTUE"],
+    [
+      "The quality needed to teach a puppy the same trick over and over.",
+      "Remaining uncomplaining in a very long queue."
+    ]
+  ],
+  [
+    "people",
+    "MODESTY",
+    ["HUMBLE", "BOAST", "SHY", "CLOTHES", "BRAG"],
+    [
+      "Accepting an award while giving most of the credit to your teammates.",
+      "Downplaying your achievements instead of showing off."
+    ]
+  ],
+  [
+    "people",
+    "CURIOSITY",
+    ["CAT", "QUESTION", "INTEREST", "KNOW", "NOSY"],
+    [
+      "The urge to peek inside a mysterious unopened box.",
+      "A child taking apart a toy to discover how it works shows this."
+    ]
+  ],
+  [
+    "people",
+    "COURAGE",
+    ["BRAVE", "FEAR", "SCARED", "HERO", "LION"],
+    [
+      "Standing up to a bully despite trembling knees.",
+      "Doing the right thing even when it puts you at risk."
+    ]
+  ],
+  [
+    "people",
+    "REUNION",
+    ["MEET", "AGAIN", "SCHOOL", "FAMILY", "TOGETHER"],
+    [
+      "Former classmates gather twenty years after graduation.",
+      "An event celebrating the return of people long separated."
+    ]
+  ],
+  [
+    "people",
+    "RIVAL",
+    ["COMPETE", "OPPONENT", "ENEMY", "WIN", "CHALLENGE"],
+    [
+      "The other bakery across the street trying to attract your customers.",
+      "Two athletes repeatedly fighting for the top ranking each have one."
+    ]
+  ],
+  [
+    "actions",
+    "BARTER",
+    ["TRADE", "SWAP", "MONEY", "EXCHANGE", "GOODS"],
+    [
+      "Give your neighbor vegetables in return for a haircut.",
+      "An economy where a sack of grain can buy a pair of shoes directly."
+    ]
+  ],
+  [
+    "actions",
+    "HAGGLE",
+    ["PRICE", "BARGAIN", "NEGOTIATE", "CHEAPER", "MARKET"],
+    [
+      "Argue with a seller until they accept a lower offer.",
+      "You say ten, the vendor says twenty, and the discussion continues."
+    ]
+  ],
+  [
+    "actions",
+    "SMUGGLE",
+    ["ILLEGAL", "BORDER", "HIDE", "CUSTOMS", "CONTRABAND"],
+    [
+      "Sneak prohibited items into a country inside a false suitcase lining.",
+      "Secretly bring snacks into a cinema that forbids outside food."
+    ]
+  ],
+  [
+    "actions",
+    "EAVESDROP",
+    ["LISTEN", "SECRET", "CONVERSATION", "OVERHEAR", "SPY"],
+    [
+      "Press your ear against a wall to find out what the neighbors are saying.",
+      "Pretend to read while following the discussion at the next table."
+    ]
+  ],
+  [
+    "actions",
+    "DAYDREAM",
+    ["IMAGINE", "AWAKE", "FANTASY", "MIND", "WANDER"],
+    [
+      "Stare out the classroom window picturing yourself on a tropical island.",
+      "Mentally plan your lottery winnings during a boring meeting."
+    ]
+  ],
+  [
+    "actions",
+    "PROCRASTINATE",
+    ["DELAY", "LATER", "PUT OFF", "WORK", "TOMORROW"],
+    [
+      "Clean your entire kitchen rather than begin the essay due tonight.",
+      "Keep finding distractions instead of tackling an important task."
+    ]
+  ],
+  [
+    "actions",
+    "IMPROVISE",
+    ["PLAN", "PREPARE", "SPONTANEOUS", "MAKE UP", "ACT"],
+    [
+      "Invent your speech on the spot when your notes disappear.",
+      "Use a coin as a screwdriver because no tools are available."
+    ]
+  ],
+  [
+    "actions",
+    "MIMIC",
+    ["COPY", "IMITATE", "PARROT", "VOICE", "SAME"],
+    [
+      "Reproduce another person's mannerisms so convincingly that everyone recognizes them.",
+      "A harmless insect may resemble a wasp to deter predators."
+    ]
+  ],
+  [
+    "actions",
+    "CAMOUFLAGE",
+    ["HIDE", "BLEND", "ARMY", "GREEN", "DISGUISE"],
+    [
+      "A moth's markings make it nearly invisible against tree bark.",
+      "The mottled pattern on a hunter's jacket breaks up their outline."
+    ]
+  ],
+  [
+    "actions",
+    "HIBERNATE",
+    ["WINTER", "SLEEP", "BEAR", "COLD", "DEN"],
+    [
+      "An animal lowers its metabolism for months when food becomes scarce.",
+      "A hedgehog enters a long dormant period until spring."
+    ]
+  ],
+  [
+    "actions",
+    "MIGRATE",
+    ["BIRD", "TRAVEL", "WINTER", "SOUTH", "MOVE"],
+    [
+      "Wildebeest cross the plains each year seeking fresh grazing.",
+      "Software teams transfer their data from an older system to a newer one."
+    ]
+  ],
+  [
+    "actions",
+    "GERMINATE",
+    ["SEED", "SPROUT", "GROW", "PLANT", "SOIL"],
+    [
+      "A bean begins to send out its first tiny root.",
+      "You can start this process with a dried lentil on damp cotton wool."
+    ]
+  ],
+  [
+    "actions",
+    "MARINATE",
+    ["SOAK", "MEAT", "SAUCE", "FLAVOR", "COOK"],
+    [
+      "Leave chicken overnight in a mixture of yogurt and spices.",
+      "Give tofu time to absorb a seasoned liquid before grilling it."
+    ]
+  ],
+  [
+    "actions",
+    "KNEAD",
+    ["DOUGH", "BREAD", "HANDS", "FLOUR", "BAKE"],
+    [
+      "Repeatedly press and fold a stretchy mixture on the counter.",
+      "Cats rhythmically push their paws into a soft blanket this way."
+    ]
+  ],
+  [
+    "actions",
+    "SIMMER",
+    ["BOIL", "HEAT", "COOK", "LOW", "BUBBLE"],
+    [
+      "Keep a stew gently moving on the stove without letting it become a rolling froth.",
+      "An unresolved resentment can quietly do this for years."
+    ]
+  ],
+  [
+    "actions",
+    "GARGLE",
+    ["THROAT", "MOUTH", "WATER", "RINSE", "SOUND"],
+    [
+      "Tilt your head back and let liquid burble before spitting it out.",
+      "A sore tonsil remedy involves warm salt solution and this action."
+    ]
+  ],
+  [
+    "actions",
+    "WINCE",
+    ["PAIN", "FLINCH", "FACE", "HURT", "GRIMACE"],
+    [
+      "Your expression tightens for a moment when the dentist touches a sensitive tooth.",
+      "You visibly cringe on hearing an embarrassing remark."
+    ]
+  ],
+  [
+    "actions",
+    "SHRUG",
+    ["SHOULDER", "RAISE", "KNOW", "CARE", "GESTURE"],
+    [
+      "A little upward movement of your upper body that means you have no answer.",
+      "A silent way to express indifference without nodding or shaking your head."
+    ]
+  ],
+  [
+    "actions",
+    "SOMERSAULT",
+    ["ROLL", "FLIP", "HEAD", "GYMNASTICS", "FORWARD"],
+    [
+      "Tuck your chin and tumble all the way over on a mat.",
+      "An acrobat rotates their entire body through a full circle in the air."
+    ]
+  ],
+  [
+    "actions",
+    "MOONWALK",
+    ["DANCE", "MICHAEL JACKSON", "BACKWARD", "SLIDE", "FEET"],
+    [
+      "A performer appears to step ahead while gliding in the opposite direction.",
+      "The illusion made famous during a performance of Billie Jean."
+    ]
+  ]
+]

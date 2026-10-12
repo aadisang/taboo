@@ -1,15 +1,17 @@
+import { expansionCardTuples } from "./expansion-cards";
+
 export type TabooCard = {
   readonly id: number;
   readonly word: string;
   readonly tabooWords: readonly [string, string, string, string, string];
 };
 
-type TabooCardTuple = readonly [
+export type TabooCardTuple = readonly [
   word: string,
   tabooWords: readonly [string, string, string, string, string],
 ];
 
-const tabooCardTuples = [
+const tabooCardTuples: readonly TabooCardTuple[] = [
   ["CAT", ["MEOW", "KITTEN", "FELINE", "PURR", "WHISKERS"]],
   ["DOG", ["BARK", "PUPPY", "CANINE", "TAIL", "FETCH"]],
   ["ELEPHANT", ["TRUNK", "TUSKS", "LARGE", "JUMBO", "SAFARI"]],
@@ -813,14 +815,14 @@ const tabooCardTuples = [
   ["TEXT", ["MESSAGE", "PHONE", "KEYBOARD", "TYPE", "WORDS"]],
   ["WHEEL OF FORTUNE", ["PAT SAJAK", "VANNA WHITE", "GAME SHOW", "JEOPARDY", "PUZZLES"]],
   ["PEACE", ["EARTH", "DOVE", "WHITE", "WORLD", "WAR"]],
-  ["SHUTES AND LADDERS", ["BOARD", "GAME", "KIDS", "MONOPOLY", "LIFE"]],
+  ["CHUTES AND LADDERS", ["BOARD", "GAME", "KIDS", "MONOPOLY", "LIFE"]],
   ["SERVICE", ["GAS", "CAR", "AUTO", "FIX", "REPAIR"]],
   ["LIBERAL", ["DEMOCRAT", "CONSERVATIVE", "CHANGE", "DONKEY", "ARTS"]],
   ["JAIL", ["LAW", "PENALTY", "POLICE", "ILLEGAL", "BARS"]],
   ["PLAYGROUND", ["SLIDE", "SWING SET", "ROUND", "PARK", "KIDS"]],
   ["THURSDAY", ["FRIDAY", "WEDNESDAY", "DAYS", "TWO", "EVE"]],
   ["PAPER CLIP", ["HOLD", "TOGETHER", "METAL", "OFFICE", "DESK"]],
-  ["MINNY MOUSE", ["ORLANDO", "DONALD DUCK", "DISNEY", "CHARACTER", "MAGIC"]],
+  ["MINNIE MOUSE", ["ORLANDO", "DONALD DUCK", "DISNEY", "CHARACTER", "MAGIC"]],
   ["PORTRAIT", ["FAMILY", "PICTURE", "FRAME", "POSE", "PHOTO"]],
   ["KITTEN", ["PURR", "MEOW", "PET", "DOG", "CAT"]],
   ["FINGERNAIL", ["CUT", "HAND", "POLISH", "FAKE", "MANICURE"]],
@@ -840,7 +842,7 @@ const tabooCardTuples = [
   ["STRIKE", ["BOWL", "HIT", "BALL", "PITCH", "OUT"]],
   ["DEFENDANT", ["PROSECUTION", "COURT", "LAW", "JUDGE", "ATTORNEY"]],
   ["HANDKERCHIEF", ["NOSE", "CLOTH", "POCKET", "WIPE", "TISSUE"]],
-  ["TRANSCIPRT", ["GRADES", "MARKS", "SCHOOL", "COLLEGE", "JOB"]],
+  ["TRANSCRIPT", ["GRADES", "MARKS", "SCHOOL", "COLLEGE", "JOB"]],
   ["CITIGROUP", ["BANK", "MORTGAGE", "LOAN", "STOCK", "BROKER"]],
   ["ARTIFACT", ["STONE", "ANCIENT", "GROUND", "BONES", "MUSEUM"]],
   ["NINTENDO", ["PLAY", "CONTROLLER", "XBOX", "PLAYSTATION", "VIDEO GAME"]],
@@ -938,7 +940,7 @@ const tabooCardTuples = [
   ["TOWN", ["CITY", "PLACE", "HALL", "GATHER", "SMALL"]],
   ["UNIVERSITY", ["COLLEGE", "HIGH SCHOOL", "STUDY", "DEGREE", "ACADEMIC"]],
   ["ATLAS", ["MAPS", "WORLD", "COUNTRY", "EARTH", "GLOBE"]],
-  ["TOUNGE", ["BODY", "PART", "TASTE", "EAT", "SENSE"]],
+  ["TONSIL", ["THROAT", "SWOLLEN", "SURGERY", "INFECTION", "MOUTH"]],
   ["DVD", ["DISC", "MOVIE", "FILM", "PLAYER", "VCR"]],
   ["X-BOX", ["PLAY", "CONTROLLER", "PLAYSTATION", "MICROSOFT", "VIDEO GAME"]],
   ["JACK DANIELS", ["WHISKEY", "TENNESSEE", "COKE", "DRINK", "ALCOHOL"]],
@@ -994,7 +996,7 @@ const tabooCardTuples = [
   ["GROUPIE", ["BEATLES", "ROLLING STONES", "TRAVEL WITH", "ROCKBAND", "MUSIC"]],
   ["SLIPPERS", ["SANDALS", "SHOES", "FEET", "SAND", "WEAR"]],
   ["TOAD", ["PRINCESS", "FROG", "GREEN", "TADPOLE", "WET"]],
-  ["FLINSTONES", ["BARNEY RUBBLE", "FRED", "WILMA", "CARTOON", "OLD"]],
+  ["FLINTSTONES", ["BARNEY RUBBLE", "FRED", "WILMA", "CARTOON", "OLD"]],
   ["VANDALISM", ["SPRAY PAINT", "VANDALIZE", "COLORS", "WALL", "GRAFFITI"]],
   ["HEADLIGHT", ["DEER", "CAR", "LIGHT", "NIGHT", "DRIVE"]],
   ["HOUSE PARTY", ["BAR", "APARTMENT", "KEG", "PEOPLE", "CROWDED"]],
@@ -1004,7 +1006,7 @@ const tabooCardTuples = [
   ["KOALA BEAR", ["AUSTRALIA", "ANIMALS", "WILD", "TREE", "CLIMB"]],
   ["EINSTEIN", ["RELATIVITY", "THEORY", "ALBERT", "SPEED OF LIGHT", "E=MC SQUARED"]],
   ["SNEEZE", ["NOSE", "SICK", "ILL", "PEPPER", "COUGH"]],
-  ["FORREST", ["TREES", "WOODS", "TRAILS", "FIRE", "ANIMALS"]],
+  ["MEADOW", ["GRASS", "FIELD", "FLOWERS", "PASTURE", "GRAZE"]],
   ["ANSWERING MACHINE", ["PHONE", "CELL", "MESSAGE", "LEAVE", "TIME"]],
   ["CARDINAL", ["BIRD", "RED", "CHIRP", "SPRING", "BISHOP"]],
   ["LOBBY", ["DOORMAN", "ENTRANCE", "PETITION", "PLEAD", "GRAND"]],
@@ -1020,7 +1022,7 @@ const tabooCardTuples = [
   ["NAPKIN", ["KLEENEX", "PAPER", "CLOTH", "CLEAN", "NOSE"]],
   ["REMEMBER", ["FORGET", "TITANS", "ALAMO", "BRAIN", "RETAIN"]],
   ["NORTHWESTERN", ["TOUGH", "UNIVERSITY", "COLLEGE", "STUDY", "ADMISSION"]],
-  ["DIAMOND", ["RING", "CARAT", "JEWEL", "GLASS", "RING"]],
+  ["DIAMOND", ["RING", "CARAT", "JEWEL", "SPARKLE", "HARD"]],
   ["HANGER", ["CLOTHES", "RACK", "COAT", "JACKET", "CLOSET"]],
   ["QUESTION", ["ASK", "ANSWER", "INTERROGATE", "PERIOD", "MARK"]],
   ["RIDICULOUS", ["SILLY", "CRAZY", "NUTS", "WHACKY", "FUNNY"]],
@@ -1045,20 +1047,20 @@ const tabooCardTuples = [
   ["HIRE", ["EMPLOYEE", "BOSS", "MANAGER", "RECRUIT", "WORK"]],
   ["STICKER", ["APPLY", "TAPE", "GLUE", "CARTOON", "FUN"]],
   ["CRAYOLA", ["COLORS", "CRAYON", "MARKER", "SCHOOL", "WRITE"]],
-  ["CUBICAL", ["OFFICE", "SPACE", "WORK", "BUSINESS", "COMPUTER"]],
+  ["CUBICLE", ["OFFICE", "SPACE", "WORK", "BUSINESS", "COMPUTER"]],
   ["NETWORK", ["COMPUTER", "JOBS", "PEOPLE", "INTERNET", "CONNECTION"]],
   ["TRUST", ["BELIEVE", "PROMISE", "BREAK", "FAMILY", "FRIEND"]],
   ["FIST", ["HAND", "FINGERS", "PUNCH", "NO", "ACTIONS"]],
-  ["TYPEWRITER", ["COMPUTER", "FAST", "WRITE", "COMPUTER", "ELECTRONIC"]],
+  ["TYPEWRITER", ["KEYBOARD", "RIBBON", "PAPER", "MANUAL", "LETTER"]],
   ["STAR TREK", ["STARSHIP", "ENTERPRISE", "KIRK", "PICARD", "SCIENCE FICTION"]],
-  ["THESAURAS", ["WEBSTER", "SYNONYM", "WORDS", "ALPHABET", "BOOK"]],
+  ["THESAURUS", ["WEBSTER", "SYNONYM", "WORDS", "ALPHABET", "BOOK"]],
   ["SOLAR", ["SUN", "SYSTEM", "SPACE", "EARTH", "MILKY WAY"]],
   ["NOSTRIL", ["NOSE", "SNEEZE", "SMELL", "BREATHE", "OPENING"]],
   ["BACKSLASH", ["DRUMMER", "LIGHTNING", "INTERNET", "KEYBOARD", "COMPUTER"]],
   ["GALAXY", ["SUN", "SYSTEM", "SPACE", "EARTH", "MILKY WAY"]],
   ["SIX FLAGS", ["GREAT AMERICA", "ROLLER COASTER", "AMUSEMENT PARK", "TEXAS", "BATMAN"]],
   ["CORN ON THE COB", ["SHEAR", "GRILL", "YELLOW", "EARS", "BITE"]],
-  ["CHANDELEER", ["LIGHTS", "CEILING", "CRYSTAL", "HIGH", "FANCY"]],
+  ["CHANDELIER", ["LIGHTS", "CEILING", "CRYSTAL", "HIGH", "FANCY"]],
   ["SCRAMBLED EGGS", ["OMELETTE", "YOLK", "WHITE", "YELLOW", "BREAKFAST"]],
   ["RANDOM", ["INTEGER", "DIFFICULT", "ORDER", "SET", "PEKING"]],
   ["EQUITY", ["STOCK", "PRIVATE", "HOME", "MORTGAGE", "INTEREST"]],
@@ -1108,7 +1110,7 @@ const tabooCardTuples = [
   ["MARBLES", ["BALLS", "SMALL", "ROLL", "STRIKE", "GAME"]],
   ["WHATS UP", ["GREETING", "HELLO", "HI", "DOING", "YOU"]],
   ["SCRABBLE", ["LETTERS", "WORDS", "DICTIONARY", "TILE", "BOARD GAME"]],
-  ["GRAFITTI", ["SPRAY PAINT", "VANDALIZE", "COLORS", "WALL", "THUG"]],
+  ["GRAFFITI", ["SPRAY PAINT", "VANDALIZE", "COLORS", "WALL", "TAG"]],
   ["BUS STOP", ["KIDS", "CHILDREN", "WAIT", "YELLOW", "SCHOOL"]],
   ["NAVY PIER", ["CHICAGO", "TOURIST", "ATTRACTION", "FERRIS WHEEL", "LAKE"]],
   ["MARS", ["SUN", "SYSTEM", "SPACE", "EARTH", "PLANET"]],
@@ -1177,13 +1179,13 @@ const tabooCardTuples = [
   ["STEEPLE", ["CHURCH", "TALL", "CROSS", "DOORS", "TOWER"]],
   ["TUESDAY", ["MONDAY", "WEDNESDAY", "DAYS", "TWO", "EVE"]],
   ["STRAIGHT", ["ARROW", "LINE", "PARALLEL", "FORWARD", "FLUSH"]],
-  ["SUN GLASSES", ["SKY", "SEE", "CLEAR", "BLOCK", "PREVENT"]],
+  ["SUNSCREEN", ["LOTION", "BURN", "SPF", "SKIN", "PROTECT"]],
   ["PRETTY WOMAN", ["JULIA ROBERTS", "MOVIE", "SONG", "MAN", "UGLY"]],
   ["TOOTHPASTE", ["BRUSH", "SHAVE", "EVERY", "DENTIST", "CAVITY"]],
   ["HOOP", ["BASKETBALL", "HULA", "EARRINGS", "JUMP", "THROUGH"]],
   ["POWER", ["ELECTRICITY", "BATTERY", "STRENGTH", "CORD", "OUTLET"]],
   ["PERMANENT MARKER", ["WRITE", "HEAVY", "PEN", "SHARPIE", "DRAW"]],
-  ["LEPRACHAUN", ["GOLD", "COLORS", "CLOVER", "RAINBOW", "RAIN"]],
+  ["LEPRECHAUN", ["GOLD", "COLORS", "CLOVER", "RAINBOW", "RAIN"]],
   ["CENTURY", ["100", "YEARS", "DECADE", "MILLENIUM", "2000"]],
   ["GOVERNMENT", ["COUNTRY", "POLITICIANS", "PRESIDENT", "CONGRESS", "RULE"]],
   ["PRINCETON", ["TOUGH", "UNIVERSITY", "COLLEGE", "STUDY", "ADMISSION"]],
@@ -1210,7 +1212,7 @@ const tabooCardTuples = [
   ["OIL", ["COOK", "GAS", "SPILL", "BARREL", "PRICE"]],
   ["QUARTER", ["TWENTY FIVE", "PENNY", "NICKEL", "DIME", "CHANGE"]],
   ["COUSIN", ["BROTHER", "FATHER", "MOTHER", "SISTER", "PARENT"]],
-  ["CUPID", ["ARROW", "HEART", "VALENTINE", "FEBRUARY", "HEART"]],
+  ["CUPID", ["ARROW", "HEART", "VALENTINE", "FEBRUARY", "LOVE"]],
   ["LABOR DAY", ["SEPTEMBER", "HOLIDAY", "SUMMER", "WEDDING", "WORK"]],
   ["WALKING", ["RUNNING", "SKIPPING", "FEET", "MOVE", "SLOW"]],
   ["GLOVE", ["MITT", "HANDS", "BASEBALL", "O.J. SIMPSON", "ACQUIT"]],
@@ -1243,7 +1245,7 @@ const tabooCardTuples = [
   ["FIRETRUCK", ["RED", "SIREN", "EMERGENCY", "HOSE", "FLAME"]],
   ["RING FINGER", ["THUMB", "FINGER", "HAND", "TOE", "INDEX"]],
   ["REPORT", ["BOOK", "ABOVE", "MANAGER", "SUMMARY", "SPEAK"]],
-  ["MAILBOX", ["DELIEVER", "USPS", "DRIVEWAY", "HOME", "FLAG"]],
+  ["MAILBOX", ["DELIVER", "USPS", "DRIVEWAY", "HOME", "FLAG"]],
   ["CELL PHONE", ["TALK", "DIAL", "CALL", "SPEAK", "POCKET"]],
   ["HELIUM", ["BALLOON", "FLOAT", "FUNNY", "TALK", "TANK"]],
   ["LEAVING", ["DEPART", "TAKE", "AIRPLANE", "BUS", "TRAIN"]],
@@ -1255,7 +1257,7 @@ const tabooCardTuples = [
   ["AMERICAN", ["CITIZEN", "COUNTRY", "USA", "CANADA", "STATES"]],
   ["SMURFS", ["LALALALA", "HAPPY", "BLUE", "CARTOON", "GARGAMEL"]],
   ["COUNTRY", ["AMERICA", "STATE", "CITY", "GOVERN", "MAP"]],
-  ["PRETTY", ["WOMAN", "BEAUTIFUL.", "FAIR", "LOOKS", "FACE"]],
+  ["PRETTY", ["WOMAN", "BEAUTIFUL", "FAIR", "LOOKS", "FACE"]],
   ["FOIL", ["ALTER", "CHANGE", "WRENCH", "DISRUPT", "TIME"]],
   ["REMOVED", ["AWAY", "TAKE", "GRAB", "COUSIN", "AUNT"]],
   ["GOLD GLOVE", ["BASEBALL", "DEFENSE", "FIELDING", "POSITION", "PLAYER"]],
@@ -1281,22 +1283,20 @@ const tabooCardTuples = [
   ["MATH", ["SCHOOL", "SUBJECT", "NUMBERS", "READING", "ENGLISH"]],
   ["YALE", ["TOUGH", "UNIVERSITY", "COLLEGE", "STUDY", "ADMISSION"]],
   ["PROTRACTOR", ["INSTRUMENT", "MATH", "SCHOOL", "SHAPES", "CIRCLE"]],
-  ["POT OF GOLD", ["LEPRAUCHAN", "COLORS", "WATER", "RAINBOW", "RAIN"]],
+  ["POT OF GOLD", ["LEPRECHAUN", "COLORS", "WATER", "RAINBOW", "RAIN"]],
   ["COUNTY", ["CITY", "STATE", "DISTRICT", "LOCAL", "MAP"]],
-  ["NEICE", ["RELATIVE", "FAMILY", "COUSIN", "SIBLING", "CHILD"]],
+  ["NIECE", ["RELATIVE", "FAMILY", "COUSIN", "SIBLING", "CHILD"]],
   ["LEGAL", ["LAW", "AGAINST", "ALLOWED", "OKAY", "RIGHT"]],
   ["CLUTCH", ["STICK", "GEAR", "GRAB", "SHIFT", "TIGHT"]],
   ["GARDEN", ["FLOWERS", "PLANTS", "VEGETABLES", "GROW", "BACKYARD"]],
   ["OLIVE", ["OIL", "TASTE", "FOOD", "PIZZA", "ANCHOVIES"]],
   ["REVIEW", ["ANALYZE", "LOOK", "CRITIQUE", "CHECK", "MANAGER"]],
   ["SLANT", ["TILT", "V8", "TIP", "STRAIGHT", "SIDE"]],
-] as const satisfies readonly TabooCardTuple[];
+];
 
-export const tabooCards: readonly TabooCard[] = tabooCardTuples.map(([word, tabooWords], id) => ({
-  id,
-  word,
-  tabooWords,
-}));
+export const tabooCards: readonly TabooCard[] = [...tabooCardTuples, ...expansionCardTuples].map(
+  ([word, tabooWords], id) => ({ id, word, tabooWords }),
+);
 
 export const allCardIds: readonly number[] = tabooCards.map((card) => card.id);
 
