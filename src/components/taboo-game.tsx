@@ -5,17 +5,17 @@ import { useCallback, useMemo } from "react";
 import { useTimer } from "react-timer-hook";
 import { GameArea } from "@/components/game-area";
 import { GameHeader } from "@/components/game-header";
+import { GameLayout } from "@/components/game-layout";
+import { GameLoadingShell } from "@/components/game-loading-shell";
 import { HelpDialog } from "@/components/dialogs/help-dialog";
 import { ResetConfirmDialog } from "@/components/dialogs/reset-confirm-dialog";
 import { SettingsDialog } from "@/components/dialogs/settings-dialog";
-import { KeyboardShortcuts } from "@/components/keyboard-shortcuts";
 import { ScoreDisplay } from "@/components/score-display";
 import { useDialogs } from "@/hooks/use-dialogs";
 import { useGameKeyboard } from "@/hooks/use-game-keyboard";
 import { useStoreHydrated } from "@/hooks/use-store-hydrated";
 import { useGameStore } from "@/stores/game";
 import { getCardById } from "@/data/taboo-cards";
-import { cn } from "@/utils/cn";
 
 export function TabooGame() {
   const dialogs = useDialogs();
@@ -91,22 +91,22 @@ export function TabooGame() {
 
   const timeRemaining = gameStarted ? totalSeconds : settings.timerDuration;
 
-  return (
-    <main className="mx-auto flex min-h-dvh max-w-2xl flex-col px-6 pt-12 pb-8 lg:max-w-3xl lg:py-8">
-      <GameHeader
-        gameStarted={gameStarted && hydrated}
-        hasPlayed={hasPlayed && hydrated}
-        activeTeamName={currentTeam?.name}
-        timeRemaining={timeRemaining}
-        onOpenSettings={openSettings}
-        onOpenHelp={openHelp}
-      />
+  if (!hydrated) return <GameLoadingShell />;
 
-      <div
-        className={cn(
-          "flex flex-1 flex-col justify-center gap-12 transition-opacity duration-150",
-          !hydrated && "invisible",
-        )}
+  return (
+    <>
+      <GameLayout
+        isPaused={isPaused}
+        header={
+          <GameHeader
+            gameStarted={gameStarted}
+            hasPlayed={hasPlayed}
+            activeTeamName={currentTeam?.name}
+            timeRemaining={timeRemaining}
+            onOpenSettings={openSettings}
+            onOpenHelp={openHelp}
+          />
+        }
       >
         <ScoreDisplay teams={teams} currentTeamIndex={currentTeamIndex} />
 
@@ -119,28 +119,20 @@ export function TabooGame() {
           onCorrect={handleCorrect}
           onSkip={handleSkip}
           onStartRound={handleStartRound}
+          onTogglePause={handleTogglePause}
         />
-      </div>
-
-      <footer className="mt-12">
-        <KeyboardShortcuts isPaused={isPaused} />
-      </footer>
-
-      {hydrated ? (
-        <>
-          <SettingsDialog
-            open={dialogs.isOpen("settings")}
-            onOpenChange={dialogs.toggle("settings")}
-            onResetRequest={openReset}
-          />
-          <HelpDialog open={dialogs.isOpen("help")} onOpenChange={dialogs.toggle("help")} />
-          <ResetConfirmDialog
-            open={dialogs.isOpen("reset")}
-            onOpenChange={dialogs.toggle("reset")}
-            onConfirm={resetGame}
-          />
-        </>
-      ) : null}
-    </main>
+      </GameLayout>
+      <SettingsDialog
+        open={dialogs.isOpen("settings")}
+        onOpenChange={dialogs.toggle("settings")}
+        onResetRequest={openReset}
+      />
+      <HelpDialog open={dialogs.isOpen("help")} onOpenChange={dialogs.toggle("help")} />
+      <ResetConfirmDialog
+        open={dialogs.isOpen("reset")}
+        onOpenChange={dialogs.toggle("reset")}
+        onConfirm={resetGame}
+      />
+    </>
   );
 }

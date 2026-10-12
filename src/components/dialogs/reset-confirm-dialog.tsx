@@ -22,9 +22,10 @@ export function ResetConfirmDialog({ open, onOpenChange, onConfirm }: ResetConfi
     <Dialog open={open} onOpenChange={onOpenChange}>
       <DialogPopup>
         <DialogHeader>
-          <DialogTitle>Start a new game?</DialogTitle>
+          <DialogTitle>Reset game?</DialogTitle>
           <DialogDescription>
-            This clears all scores and used cards. It cannot be undone.
+            This resets teams to Team 1 and Team 2 and clears all scores and used cards. Your
+            settings stay the same. This cannot be undone.
           </DialogDescription>
         </DialogHeader>
         <DialogFooter>

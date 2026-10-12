@@ -76,13 +76,23 @@ export function SettingsDialog({ open, onOpenChange, onResetRequest }: SettingsD
               <ul className="space-y-2">
                 {fields.map((field, index) => (
                   <li key={field.id} className="flex items-center gap-2">
-                    <Input
-                      type="text"
-                      placeholder={`Team ${index + 1}`}
-                      aria-invalid={Boolean(errors.teams?.[index]?.name)}
-                      aria-label={`Team ${index + 1} name`}
-                      {...register(`teams.${index}.name`)}
-                    />
+                    <div className="min-w-0 flex-1">
+                      <Input
+                        type="text"
+                        placeholder={`Team ${index + 1}`}
+                        aria-invalid={Boolean(errors.teams?.[index]?.name)}
+                        aria-label={`Team ${index + 1} name`}
+                        aria-describedby={
+                          errors.teams?.[index]?.name ? `team-error-${field.id}` : undefined
+                        }
+                        {...register(`teams.${index}.name`)}
+                      />
+                      {errors.teams?.[index]?.name ? (
+                        <p id={`team-error-${field.id}`} className="mt-1 text-sm text-foreground">
+                          Enter a team name between 1 and 24 characters.
+                        </p>
+                      ) : null}
+                    </div>
                     {canRemoveTeam ? (
                       <Button
                         variant="ghost"
@@ -178,7 +188,7 @@ export function SettingsDialog({ open, onOpenChange, onResetRequest }: SettingsD
             >
               Reset game
             </Button>
-            <div className="flex items-center gap-2">
+            <div className="flex flex-wrap items-center gap-2">
               <DialogClose render={<Button variant="outline" size="sm" />}>Cancel</DialogClose>
               <Button type="submit" size="sm" disabled={isSubmitting}>
                 Save

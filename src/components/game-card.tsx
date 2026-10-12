@@ -19,7 +19,7 @@ export function GameCard({ card }: GameCardProps) {
         <div className="h-px flex-1 bg-border" />
       </div>
 
-      <ul className="mt-6 grid gap-2 text-lg text-muted-foreground sm:text-xl">
+      <ul className="mt-6 grid gap-2 wrap-anywhere text-lg text-muted-foreground sm:text-xl">
         {card.tabooWords.map((word) => (
           <li key={word} className="font-medium">
             {word}

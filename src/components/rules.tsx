@@ -18,7 +18,7 @@ export function Rules({ className }: RulesProps) {
           >
             {index + 1}
           </span>
-          <div className="space-y-0.5 leading-snug">
+          <div className="min-w-0 space-y-0.5 leading-normal">
             <p className="text-sm font-medium text-foreground">{rule.title}</p>
             <p className="text-sm text-muted-foreground">{rule.body}</p>
           </div>

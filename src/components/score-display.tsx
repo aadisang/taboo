@@ -15,19 +15,20 @@ export function ScoreDisplay({ teams, currentTeamIndex }: ScoreDisplayProps) {
         {teams.map((team, index) => {
           const isActive = index === currentTeamIndex;
           return (
-            <li key={team.id} className="text-center">
+            <li key={team.id} className="min-w-0 max-w-full wrap-anywhere text-center">
               <p
                 className={cn(
                   "section-label",
                   isActive ? "text-foreground" : "text-muted-foreground",
                 )}
               >
-                {team.name}
+                <bdi>{team.name}</bdi>
+                {isActive ? <span className="sr-only">Current team</span> : null}
               </p>
               <p
                 className={cn(
                   "mt-1 text-5xl font-bold tabular tracking-tight sm:text-6xl",
-                  isActive ? "text-foreground" : "text-muted-foreground/40",
+                  isActive ? "text-foreground" : "text-muted-foreground",
                 )}
               >
                 {team.score}

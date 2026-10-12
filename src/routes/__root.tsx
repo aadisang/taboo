@@ -14,7 +14,7 @@ export const Route = createRootRoute({
       { charSet: "utf-8" },
       {
         name: "viewport",
-        content: "width=device-width, initial-scale=1, maximum-scale=1",
+        content: "width=device-width, initial-scale=1",
       },
       { title: siteMetadata.title },
       { name: "description", content: siteMetadata.description },
@@ -29,7 +29,7 @@ export const Route = createRootRoute({
       { name: "apple-mobile-web-app-status-bar-style", content: "black-translucent" },
       { name: "mobile-web-app-capable", content: "yes" },
       { name: "format-detection", content: "telephone=no" },
-      { name: "color-scheme", content: "light dark" },
+      { name: "color-scheme", content: "dark" },
       {
         name: "theme-color",
         content: siteMetadata.themeColorLight,
@@ -61,6 +61,13 @@ export const Route = createRootRoute({
       { name: "twitter:image:alt", content: siteMetadata.socialImage.alt },
     ],
     links: [
+      {
+        rel: "preload",
+        href: "/fonts/Satoshi-Variable.woff2",
+        as: "font",
+        type: "font/woff2",
+        crossOrigin: "anonymous",
+      },
       { rel: "stylesheet", href: appCss },
       { rel: "canonical", href: siteMetadata.origin },
       { rel: "icon", href: "/favicon.svg", type: "image/svg+xml" },

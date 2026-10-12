@@ -14,6 +14,7 @@ type GameAreaProps = {
   onCorrect: () => void;
   onSkip: () => void;
   onStartRound: () => void;
+  onTogglePause: () => void;
 };
 
 export function GameArea({
@@ -25,6 +26,7 @@ export function GameArea({
   onCorrect,
   onSkip,
   onStartRound,
+  onTogglePause,
 }: GameAreaProps) {
   if (gameStarted && isPaused) {
     return (
@@ -39,11 +41,11 @@ export function GameArea({
         ) : (
           <>
             <h2 className="text-2xl font-semibold tracking-tight">Round paused</h2>
-            <p className="mt-2 text-sm text-muted-foreground">
-              Press <kbd className="kbd">P</kbd> to resume
-            </p>
           </>
         )}
+        <Button className="mt-8" onClick={onTogglePause}>
+          Resume round
+        </Button>
       </section>
     );
   }

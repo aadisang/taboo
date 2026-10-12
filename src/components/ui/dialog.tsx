@@ -69,7 +69,10 @@ export function DialogPanel({
 }: React.HTMLAttributes<HTMLDivElement>): React.ReactElement {
   return (
     <div
-      className={cn("flex-1 overflow-y-auto px-5 py-5", className)}
+      className={cn(
+        "min-h-0 flex-1 overflow-y-auto overscroll-contain px-5 py-5 [scrollbar-gutter:stable]",
+        className,
+      )}
       data-slot="dialog-panel"
       {...props}
     />
@@ -86,7 +89,7 @@ export function DialogFooter({
   return (
     <div
       className={cn(
-        "flex shrink-0 flex-row items-center justify-end gap-2 px-5 py-3",
+        "flex shrink-0 flex-row flex-wrap items-center justify-end gap-2 px-5 py-3",
         variant === "default" && "border-border border-t bg-muted/30",
         className,
       )}

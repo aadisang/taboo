@@ -24,31 +24,42 @@ export function GameHeader({
   const label = hasPlayed ? (activeTeamName ?? "Taboo") : "Taboo";
 
   return (
-    <header className="mb-10 flex items-center justify-between lg:mb-8">
-      <h1 className="text-base font-semibold tracking-tight">{label}</h1>
-      <div className="flex items-center gap-1">
+    <header className="mb-10 flex flex-wrap items-center justify-between gap-3 lg:mb-8">
+      <h1 className="min-w-0 max-w-full flex-1 basis-32 wrap-anywhere text-base font-semibold tracking-tight">
+        <bdi>{label}</bdi>
+      </h1>
+      <div className="flex max-w-full flex-wrap items-center gap-1">
         {gameStarted ? (
           <span
-            aria-live="polite"
+            role="timer"
             aria-label={`Time remaining ${formatGameTime(timeRemaining)}`}
-            className="mr-3 tabular text-sm text-foreground"
+            className="me-3 tabular text-sm text-foreground"
           >
             {formatGameTime(timeRemaining)}
           </span>
         ) : null}
-        <Button variant="ghost" size="icon" onClick={onOpenHelp} aria-label="How to play">
+        <Button
+          variant="ghost"
+          size="icon"
+          className="size-11 sm:size-11"
+          onClick={onOpenHelp}
+          aria-label="How to play"
+        >
           <QuestionIcon className="size-4" weight="regular" />
         </Button>
         <Button
           variant="ghost"
           size="icon"
-          className="-mr-1"
+          className="size-11 sm:size-11"
           onClick={onOpenSettings}
           aria-label="Open settings"
         >
           <GearIcon className="size-4" weight="regular" />
         </Button>
       </div>
+      <span role="status" className="sr-only">
+        {gameStarted && timeRemaining === 10 ? "10 seconds remaining" : ""}
+      </span>
     </header>
   );
 }
