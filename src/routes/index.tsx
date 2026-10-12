@@ -5,6 +5,8 @@ import { siteMetadata } from "@/config/site";
 import { getWordUpdateDismissed } from "@/server/word-update";
 
 export const Route = createFileRoute("/")({
+  ssr: "data-only",
+  pendingMinMs: 0,
   loader: () => getWordUpdateDismissed(),
   head: () => ({
     meta: [
